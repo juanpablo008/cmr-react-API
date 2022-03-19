@@ -1,12 +1,10 @@
 {
-  "clientes": [
-    {
-      "nombre": "Juan Pablo Bedoya Mosquera",
-      "empresa": "Talent",
-      "email": "bedojuanpablo@gmail.com",
-      "telefono": "3193619303",
-      "notas": "Cliente recomendado por Ana",
-      "id": 1
-    }
-  ]
+    "clientes": [{
+        "nombre": "Juan Pablo Bedoya Mosquera",
+        "empresa": "Talent",
+        "email": "correo@gmail.com",
+        "telefono": "98712346987",
+        "notas": "Cliente recomendado por Ana",
+        "id": 1
+    }]
 }
