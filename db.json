@@ -1,20 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Alejandra Morales",
+      "nombre": "Juan Pablo",
       "empresa": "talent",
       "email": "aleja@correo.com",
       "telefono": "13241234",
       "notas": "asdfasdf",
       "id": 1
-    },
-    {
-      "nombre": "Alejandra",
-      "empresa": "talent",
-      "email": "aleja@correo.com",
-      "telefono": "0192834708",
-      "notas": "asdf",
-      "id": 2
     }
   ]
 }
