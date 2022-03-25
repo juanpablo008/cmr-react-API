@@ -23,7 +23,7 @@ const Inicio = () => {
     const confirmar = confirm('¿Deseas eliminar este cliente?')
     if(confirmar){
       try {
-        const url = `${import.meta.env.VITE_API_URL}/${id}`
+        const url = `https://my-json-server.typicode.com/juanpablo008/cmr-react-API/clientes/${id}`
         const respuesta = await fetch(url,{
           method: 'DELETE'
         })

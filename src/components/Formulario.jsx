@@ -21,7 +21,7 @@ const Formulario = ({cliente, cargando}) => {
       let respuesta
       if(cliente.id){
         //Editanto un cliente
-        const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
+        const url = `https://my-json-server.typicode.com/juanpablo008/cmr-react-API/clientes/${cliente.id}`
         respuesta = await fetch(url,{
           method: 'PUT',
           body: JSON.stringify(values),

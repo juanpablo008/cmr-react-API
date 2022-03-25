@@ -13,7 +13,7 @@ const EditarCliente = () => {
     const obtenerClienteAPI = async () => {
       setCargando(!cargando)
       try {
-        const url = `${import.meta.env.VITE_API_URL}/${id}`
+        const url = `https://my-json-server.typicode.com/juanpablo008/cmr-react-API/clientes/${id}`
         const respuesta = await fetch(url)
         const resultado = await respuesta.json()
         setCliente(resultado)
