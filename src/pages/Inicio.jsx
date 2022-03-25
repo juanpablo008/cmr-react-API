@@ -8,7 +8,7 @@ const Inicio = () => {
   useEffect(() => {
     const obtenerClientesAPI = async () => {
       try {
-        const url = import.meta.env.VITE_API_URL
+        const url = "https://my-json-server.typicode.com/juanpablo008/cmr-react-API/clientes"
         const respuesta = await fetch(url)
         const resultado = await respuesta.json()
         setClientes(resultado)

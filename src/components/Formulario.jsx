@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import * as Yup from 'yup'
 import Alerta from './Alerta'
 import Spinner from './Spinner'
+import Cliente from './Cliente'
 
 const Formulario = ({cliente, cargando}) => {
 
@@ -32,7 +33,7 @@ const Formulario = ({cliente, cargando}) => {
 
       }else{
         //Creando nuevo cliente
-        const url = import.meta.env.VITE_API_URL
+        const url = "https://my-json-server.typicode.com/juanpablo008/cmr-react-API/clientes"
         respuesta = await fetch(url,{
           method: 'POST',
           body: JSON.stringify(values),
@@ -160,7 +161,7 @@ const Formulario = ({cliente, cargando}) => {
   )
 }
 
-Formulario.defaulProps = {
+Formulario.defaultProps = {
   cliente: {},
   cargando: false
 }
